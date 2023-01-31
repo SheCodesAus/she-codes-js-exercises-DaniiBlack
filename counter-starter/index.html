@@ -14,7 +14,15 @@
     <body>
         <div id="wrapper">
             <p id="number">0</p>
-            <div id="button-wrapper"></div>
+            <div id="button-wrapper">
+                <input type="button" value="+" id="addition" onClick="calculate('addition', 1)" />
+                <input type="button" value="+five" id="addition-five" onClick="calculate('addition', 5)" />
+                <input type="button" value="-" id="subtraction" onClick="calculate('subtraction', 1)" />
+                <input type="button" value="*" id="multiplication" onClick="calculate('multiply', 2)" />
+                <input type="button" value="+fifty" id="plus" onClick="calculate('addition', 50)" />
+                <input type="button" value="/" id="divide" onClick="calculate('divide', 5)" />
+            </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
